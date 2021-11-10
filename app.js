@@ -36,6 +36,7 @@ db();
 
 
 // view engine setup
+app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', exphbs({
     defaultLayout: 'layout', extname: '.hbs',
     runtimeOptions: {
