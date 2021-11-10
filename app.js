@@ -17,7 +17,7 @@ const app = express();
 //Connecting to Mongodb
 const db = async () => {
     try {
-        const conn = await mongoose.connect('mongodb://localhost:27017/autorizz', {
+        const conn = await mongoose.connect('mongodb://group3-nodejsapp:b6kU4rrhN7qFCMjRLSaGdPYrIy8qTnMy9q5DVSSJ6RNvBbL3vOzkIrLa6isXa7BQQTpX53vUNAuCphNWhdtKZA%3D%3D@group3-nodejsapp.mongo.cosmos.azure.com:10255/autorizz?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@group3-nodejsapp@', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false
